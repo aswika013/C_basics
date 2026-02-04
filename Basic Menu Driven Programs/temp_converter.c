@@ -17,7 +17,7 @@ int main()
             printf("Enter the temperature: ");
             scanf("%f",&celsius);
             float equivalent_fahrenheit= celsius* (9.0/5.0)+32;
-            printf("%f °C is equal to %f °F",celsius,equivalent_fahrenheit);
+            printf("%f °C is equal to %.2f °F",celsius,equivalent_fahrenheit);
             break;
         }
 
@@ -27,7 +27,7 @@ int main()
             printf("Enter the temperature:");
             scanf("%f",&fahrenheit);
             float equivalent_celsius= (fahrenheit-32) *(5.0/9.0);
-            printf("%f °F is equal to %f°C  ", fahrenheit, equivalent_celsius);
+            printf("%f °F is equal to %.2f°C  ", fahrenheit, equivalent_celsius);
             break;
         }
 
